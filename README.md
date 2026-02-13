@@ -1,9 +1,12 @@
-# React + Vite
+# Photo Studio Website – Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains the React-based frontend of a full-stack web application developed for a local photo studio.
 
-Currently, two official plugins are available:
+The application provides:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# Fix-Foto-Studio
+- A customer-facing interface for browsing services and placing orders
+- Payment integration with redirect-based status handling
+- An authenticated owner/admin interface for managing pricing and studio data
+- Dynamic data retrieval via REST API integration
+
+The frontend communicates with a Node.js backend using Axios and supports role-based routing for customer and administrative workflows.

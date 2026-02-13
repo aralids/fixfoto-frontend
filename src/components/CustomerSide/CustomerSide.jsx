@@ -443,7 +443,6 @@ const CustomerSide = ({ intentId, orderSuccess, pricelist }) => {
 				<FinalSection
 					sectionSize={SECTION_SIZE}
 					handleClick={(dialogType) => {
-						console.log("type CustomerSide: ", dialogType);
 						setShowDialog(true);
 						setDialogType(dialogType);
 					}}

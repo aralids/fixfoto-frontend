@@ -105,7 +105,7 @@ const ProductSection = ({
 		}
 		return <>{...arr}</>;
 	};
-	//console.log(generateText(id));
+    
 	return (
 		<>
 			<div
